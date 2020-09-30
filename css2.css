@@ -1,0 +1,262 @@
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    #myNav{
+        display: block;
+    }
+    .need-assistance{
+        display: none;
+    }
+    .about-us{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header1-end{
+        margin: auto;
+    }
+    /* .box {
+        margin: 0px -48px 0px 0px;
+    } */
+    .header-icon img {
+        margin-left: -8px;
+        margin-right: 17px;
+    }
+    .list-content li{
+        padding-left: 0;
+    }
+    ul{
+        display: none;
+    }
+    .navigation{
+        padding-left: 20px;
+    }
+    .investment-overview h1 {
+        font-size: 33px !important;
+    }
+    .the-fund{
+        border-bottom: 1px solid !important;
+    padding-bottom: 11px;
+        display: flex;
+        justify-content: space-between;
+        border: none;
+    }
+    .total-balance{
+        display: block;
+    }
+    .number{
+        /* margin-right: px; */
+        font-size: 17px;
+    }
+    .avail-fund{
+        padding-top: 11px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    }
+    .container-one{
+        display: flex;
+        padding-left: 20px;
+    }
+    .main-content{
+        display: block;
+    }
+   
+    .box1 {
+        padding-top: 9px;
+        padding-left: 8px;
+    }
+    .box1 li{
+    padding-bottom: 12px;
+    width: 161px;
+    padding-top: 9px;
+    font-size: 12px;
+    }
+    .box2 {
+        width: 124px;
+        padding-top: 9px;
+        padding-left: 8px;
+    }
+    .box2 li{
+        display: none;
+    }
+    .box3 {
+        display: none;
+    }
+    .box4 {
+        display: none;
+    }
+    .content-1 p {
+        padding-left: 0;
+        max-width: 1200px;
+        padding-left: 0;
+    }
+    .content-2{
+        padding-left: 0;
+    }
+    .image{
+        display: flex;
+    margin-top: 20px;
+    }
+    .content-2 p{
+        max-width: 1200px;
+    }
+    .container-3{
+        /* margin-right: 20px; */
+        max-width: 1200px;
+        padding-left: 0;
+    }
+    .container-4{
+        margin-right: 20px;
+        max-width: 1200px;
+        padding-left: 0;
+    }
+    .complete{
+        display: block;
+    }
+    /* .footer-sec-2{
+        padding-left: 40px;
+    } */
+    .complete img {
+        /* margin-top: 20px; */
+        height: 23px;
+    }
+    /* .box-one p {
+        max-width: 239px;
+    } */
+    .corporation p{
+        width: 185px;
+    }
+    .first-name input{
+        max-width: 220px;
+    }
+    .address-line input{
+        max-width: 220px;
+    }
+    .zip-code{
+        display: block;
+    }
+    .second-name input{
+        max-width: 220px;
+    }
+    .icon-header span{
+        display: block;
+    }
+    /* .certificates{
+        margin-right: 22px;
+    } */
+    .next{
+        margin-left: 30px;
+    }
+    .vcep-img{
+        padding-left: 57px;
+    }
+    .next-button{
+        padding-left: 80px;
+    padding-right: 80px;
+        float: none;
+    }
+    .footer-main-section{
+        display: block;
+    }
+    .about-us li{
+        margin-left: 38px;
+    }
+    .footer-sec-1{
+        padding-left: 20px;
+    }
+    .footer-sec-3{
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    /* .container-3{
+        margin-right: 20px;
+    } */
+}
+@media only screen and (max-width: 768px) {
+    .address-line input{
+        width: 428px;
+    }
+    .second-name input{
+        width: 220px;
+    }
+    /* .container-4{
+        max-width: 530px;
+    } */
+    .box-one{
+        max-width: 530px;
+    }
+    .box3 {
+        display: block;
+        width: 174px;
+    padding-top: 9px;
+    padding-left: 8px;
+    }
+
+    .box3 li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .navigation{
+        padding-left: 20px;
+    }
+    .need-assistance{
+        padding-left: 20px;
+    }
+    .container-two{
+        max-width: 591px;
+    }
+    .next-button{
+        float: none;
+    }
+    .about-us li{
+        margin-left: 0;
+    }
+    .footer-sec-1{
+        padding-left: 20px;
+    }
+    .container-4{
+        margin-right: 20px;
+    }
+    .box-one {
+        margin-right: 20px;
+    }
+    .address-line p {
+        max-width: 470px;
+    }
+    .second-name p{
+        max-width: 238px;
+    }
+
+
+}
+@media only screen and (max-width: 1024px) {
+    .container-two{
+        max-width: 769px;
+    }
+}
+@media screen and (max-width: 450px){
+    .box3 {
+        display: block;
+        width: 124px;
+    padding-top: 9px;
+    padding-left: 8px;
+    }
+    .box3 li {
+        display: none;
+    }
+}
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+    .overlay a {
+        font-size: 17px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
