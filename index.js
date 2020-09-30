@@ -7,9 +7,7 @@ function closeNav() {
 }
 function openSelect(){
     submitForm = document.getElementsByClassName('container-4');
-    
         submitForm.style.display = 'block';
-    
 }
 function continueRequest() {
     submitForm = document.getElementsByClassName('container-4');
@@ -17,13 +15,14 @@ function continueRequest() {
         submitForm[i].style.display = 'none';
     alert("Your Request has been submitted");
 }
-document.getElementById("name");
-sessionStorage.setItem("name", $('#name').text());
-document.getElementById("name").innerHTML = sessionStorage.getItem("name", ('#name').text());
+var firstName = document.getElementById('name');
+firstName.innerHTML = JSON.stringify(sessionStorage);
+// var targetingParams = pbjs.getAdserverTargeting();
+sessionStorage.setItem("name", firstName);
+console.log('name', firstName);
+var myName = sessionStorage.getItem('name', firstName);
 // localStorage.setItem('name', name);
-// var myName = localStorage.getItem('name');
-// console.log(myName);
-
+// console.log(firstName);
 // localStorage.setItem('address', name);
 // var myAddress = localStorage.getItem('address');
 // console.log(myAddress);

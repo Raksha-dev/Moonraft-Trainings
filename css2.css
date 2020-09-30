@@ -172,6 +172,9 @@
     } */
 }
 @media only screen and (max-width: 768px) {
+    .icon-header span{
+        display: block;
+    }
     .address-line input{
         width: 428px;
     }
