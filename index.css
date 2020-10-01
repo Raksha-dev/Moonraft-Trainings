@@ -210,13 +210,20 @@ header {
     font-size: 12px;
     letter-spacing: 0.5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    max-width: 240px;
+    width: 246px;
     border-radius: 20px;
     border: 1px solid;
     padding: 9px 22px;
     margin-top: 7px;
     margin-bottom: 6px;
     color: #022737;
+}
+.box img{
+    top: 44%;
+    position: absolute;
+    width: 12px;
+    height: 7px;
+    right: 11px;
 }
 .header-icon {
     margin-left: 22px;
@@ -880,5 +887,5 @@ padding-top: 35px;
 }
 .footer2{
     background-color: #f5f5f5;
-
 }
+

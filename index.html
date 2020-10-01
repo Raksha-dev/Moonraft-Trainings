@@ -23,7 +23,7 @@
             <div class="header1-end">
             <div class="box">
                <p>A1029087 - John Carson Ec…</p>
-               <img src="./more.png" alt="">
+               <img src="./pictures/caret-b.png" alt="">
            </div>
            <div class="header-icon">
                <img src="./pictures/Capture.JPG" alt="">
@@ -63,6 +63,8 @@
                 <a href="#">MY ACCOUNT</a>
             </div>
         </div>
+
+        
 
         <nav class="navigation">
             <div class="investment-overview">
@@ -161,7 +163,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius scelerisque luctus. Ut rutrum nisl in ultricies euismod. Curabitur tristique vel nunc vitae finibus. Learn More</p>
                         <div class="type-of-account">  Type of account in which assets are registered:</div>
                         <div class="corporation">
-                            <p>Corporation</p>
+                            <p for = "addrestyp" id="corporation1">Corporation</p>
                             <img src="./pictures/down.png">
                             </div>
 
@@ -172,7 +174,8 @@
                              </div>
                              <div class="first-name">
                                 <!-- <input type="submit" onclick="myFunction();" value="OK" data-theme="a"> -->
-                                <input></input>
+                                <input type="text" id="name"></input>
+                                <p id="demo"></p>
                             </div>
 
                             <div class="form-submit">
@@ -181,21 +184,21 @@
                                
                              </div>
                              <div class="corporation">
-                                <p>Home</p>
+                                <p></p>
                                 <img src="./pictures/down.png">
                                 </div>
                                 <div class="address-line">
                                     <div>Address Line 1</div>
-                                    <input type="text" value="2 fremont road"></input>
+                                    <input type="text" value="2 fremont road" id="address1"></input>
                                 </div>
                                 <div class="address-line">
                                     <p>Enter address iline 2</p>
-                                    <input type="text" value="2 fremont road"></input>
+                                    <input type="text" value="2 fremont road" id="address2"></input>
 
                                 </div>
                                 <div class="address-line">
                                     <div>Address Line 3 (optional)</div>
-                                    <input type="text" value="2 fremont road"></input>
+                                    <input type="text" value="2 fremont road" id="address3"></input>
                                 </div>
                                 <div class="address-section">
                                 <div class="zip-code">
@@ -238,9 +241,13 @@
                     <i>Name</i>
                    
                  </div>
+                 
                  <div class="first-name">
-                    <label for="name"></label>
-                    <input type="text" id="name"></input>
+
+
+                   
+
+                    <input type="text" id="Name"></input>
                 </div>
 
                 <div class="form-submit">
@@ -255,7 +262,7 @@
                     <div class="address-line">
                         <div>Address Line 1</div>
                         <label for="address"></label>
-                        <input type="text" id="name" value="2 fremont road"></input>
+                        <input type="text" id="address1" value="2 fremont road"></input>
                     </div>
                     <div class="address-line">
                         <p>Enter address iline 2</p>
@@ -341,7 +348,8 @@
 
                 </div>
                 <div class="btn">
-                  <button class="view-and-edit" onclick="openSelect()">Select</button>
+                  <button class="view-and-edit">Select</button>
+                  
                  
                 </div>
         </div>
