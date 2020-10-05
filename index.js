@@ -5,6 +5,12 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
+function wire(){
+    var ubmitForm = document.getElementsByClassName('container-4');
+    for (var i=0;i<ubmitForm.length;i+=1){
+        ubmitForm[i].style.display = 'block';
+      }
+}
 function continueRequest() {
     submitForm = document.getElementsByClassName('container-4');
     for (var i=0;i<submitForm.length;i+=1){
