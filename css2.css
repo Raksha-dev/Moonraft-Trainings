@@ -63,6 +63,18 @@
         padding-top: 9px;
         padding-left: 8px;
     }
+    .box2:before{
+        display: none;
+    }
+    .box3:before{
+        display: none;
+    }
+    .box4:before{
+        display: none;
+    }
+    .box1:before{
+        display: none;
+    }
     .box1 li{
     padding-bottom: 12px;
     width: 161px;
@@ -262,5 +274,4 @@
         right: 35px;
     }
 }
-
 

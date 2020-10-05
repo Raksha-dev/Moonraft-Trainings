@@ -392,13 +392,37 @@ ul li:hover {
      
     padding-top: 18px;
     padding-left: 20px;
-    border-left: 4px solid #006778;
+    border-left: 4px solid #dcdcdc;
     box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
     width: 174px;
     margin-top: 7px;
     list-style-type: none;
     background-color: #ffffff;
 }
+.box1:hover {
+    border-color: #006778;
+ }
+ .box1:before {
+    margin-top: 50px;
+    content: '';
+    width: 15px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    right: 0;
+    right: 80%;
+    transform: translateX(-50%) rotate(-45deg);
+    border-left: 2px solid white;
+ }
+ .box2:hover {
+    border-color: #006778;
+ }
+ .box3:hover {
+    border-color: #006778;
+ }
+ .box4:hover {
+    border-color: #006778;
+ }
 .box1 i{
     padding-top: 8px;
     font-family: HelveticaNeue;
@@ -421,7 +445,7 @@ ul li:hover {
      
     padding-top: 18px;
     padding-left: 20px;
-    border-left: 4px solid #006778;
+    border-left: 4px solid #dcdcdc;
     box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
     width: 174px;
     margin-top: 7px;
@@ -438,7 +462,7 @@ ul li:hover {
 }
 .box2 li{
     padding-bottom: 25px;
-    width: 125px;
+    /* width: 125px; */
     padding-top: 30px;
     font-family: BerkeleyStd;
     font-size: 16px;
@@ -450,7 +474,7 @@ ul li:hover {
      
     padding-top: 18px;
     padding-left: 20px;
-    border-left: 4px solid #006778;
+    border-left: 4px solid #dcdcdc;
     box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
     width: 174px;
     margin-top: 7px;
@@ -482,7 +506,7 @@ ul li:hover {
      
     padding-top: 18px;
     padding-left: 20px;
-    border-left: 4px solid #006778;
+    border-left: 4px solid #dcdcdc;
     box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
     width: 174px;
     margin-top: 7px;
@@ -516,11 +540,13 @@ ul li:hover {
     font-family: HelveticaNeue;
   font-size: 16px;
   line-height: 1.5;
-  color: #505050;
+  color: #727272;
     padding-top: 10px;
     padding-left: 20px;
 }
 .list-content{
+    color: #505050;
+    font-weight: 600;
     padding-top: 20px;
 }
 .list-content li{ 
