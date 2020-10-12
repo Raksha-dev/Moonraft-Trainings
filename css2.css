@@ -182,6 +182,13 @@
 }
 
 @media only screen and (max-width: 768px) {
+    /* main{
+        padding-left: 20px;
+    padding-right: 20px;
+    } */
+    .zip-code{
+        padding-right: 20px;
+    }
     .classic {
         width: 230px;
     }

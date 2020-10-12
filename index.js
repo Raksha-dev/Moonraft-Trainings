@@ -15,17 +15,22 @@ function wire() {
 
 function continueRequest() {
     submitForm = document.getElementsByClassName('container-4');
-    for (var i = 0; i < submitForm.length; i += 1) {
-        submitForm[i].style.display = 'none';
-        alert("Your Request has been submitted");
-    }
-    var addresstype = document.getElementById('corporation1').value;
+    var addresstype = document.getElementsByClassName('classic').value;
     var firstName = document.getElementById("name").value;
     var address1 = document.getElementById("address1").value;
     var address2 = document.getElementById("address2").value;
     document.getElementById("demo").innerHTML;
     sessionStorage.setItem("address", addresstype);
+    sessionStorage.getItem("address", addresstype);
     sessionStorage.setItem("name", firstName);
+    sessionStorage.getItem("name", firstName);
     sessionStorage.setItem("Addres1", address1);
+    sessionStorage.getItem("address", addresstype);
     sessionStorage.setItem("Addres2", address1);
+    sessionStorage.getItem("address", addresstype);
+    
+    // for (var i = 0; i < submitForm.length; i += 1) {
+       
+    //     alert("Your Request has been submitted");
+    // }
 }
