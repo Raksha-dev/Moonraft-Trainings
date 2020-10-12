@@ -133,19 +133,19 @@ table {
 /* reser endfd */
 /*start of css*/
 
-@font-face {
+/* @font-face {
     font-family: "helveticaneue";
-    src: url("./icons/HelveticaNeueHv.ttf");
+    src: url("./fonts/HelveticaNeue.ttf");
 }
 
 @font-face {
-    font-family: "HelveticaNeue";
-    src: url("./icons/HelveticaNeueHv.ttf");
+    font-family: "HelveticaNeue-Bold";
+    src: url("./fonts/Helvetica\ Neu\ Bold.ttf");
 }
 
 @font-face {
-    font-family: "helveticaneue-Semibold";
-    src: url("./icons/HelveticaNeue\ Medium.ttf");
+    font-family: "helveticaneue-Medium";
+    src: url("./fonts/HelveticaNeue\ Medium.ttf");
     font-weight: 200;
 }
 
@@ -159,7 +159,7 @@ table {
     font-family: "helveticaneue-bold";
     src: url("./icons/Helvetica\ Neu\ Bold.ttf");
     font-weight: 800;
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -181,53 +181,56 @@ header {
     display: flex;
 }
 .need-assistance{
+    margin-top: 12px;
+    margin-bottom: 13px;
     display: flex;
 }
 .need-assistance li{
   list-style-type: none;
-  font-family: HelveticaNeue;
+  /* font-family: HelveticaNeue; */
   font-size: 12px;
-  font-weight: bold;
+  /* font-weight: bold; */
   letter-spacing: 0.5px;
-  padding-top: 13px;
+  /* padding-top: 13px; */
   color: #ffffff;
 }
 .site-tour{
     padding-left: 45px;
 }
 .header1-end{
+    /* display: none; */
     display: flex;
 }
 .box {
-    margin: 0px -9px 0px 0px;
+    margin-bottom: 4px;
+    margin-top: 7px;
     position: relative;
     display: flex;
 }
 
 .box p {
+    padding-top: 5px;
+    padding-right: 37px;
+    padding-left: 20px;
     background-color: white;
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 0.5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 246px;
     border-radius: 20px;
     border: 1px solid;
-    padding: 9px 22px;
-    margin-top: 7px;
-    margin-bottom: 6px;
     color: #022737;
 }
 .box img{
-    top: 44%;
+    top: 40%;
     position: absolute;
     width: 12px;
     height: 7px;
-    right: 11px;
+    right: 16px;
 }
 .header-icon {
     margin-left: 22px;
-    padding-top: 15px
+    margin-top: 12px
 }
 
 .header-icon img {
@@ -251,7 +254,8 @@ header {
     margin: 0 auto;
     max-width: 1200px;
 }
-ul {
+.nav-list {
+    
     display: flex;
     font-family: HelveticaNeue;
     font-stretch: condensed;
@@ -263,17 +267,17 @@ ul {
     letter-spacing: 0.5px;
     color: #022737;
 }
-ul img{
+.nav-list img{
     margin-top: 2px;
     margin-bottom: 29px;
     margin-left: 5px;
 }
-ul li {
+.nav-list li {
     margin-left: 30px;
     width: max-content;
 }
 
-ul li:hover {
+.nav-list li:hover {
     margin-bottom: -14px;
     border-bottom: 6px solid #022737;
 }
@@ -400,28 +404,30 @@ ul li:hover {
     background-color: #ffffff;
 }
 .box1:hover {
+    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
     border-color: #006778;
  }
- .box1:before {
-    margin-top: 50px;
-    content: '';
-    width: 15px;
-    height: 20px;
-    background: white;
+ /* .box1.arrow-right::before {
+    content: " ";
     position: absolute;
-    right: 0;
-    right: 80%;
-    transform: translateX(-50%) rotate(-45deg);
-    border-left: 2px solid white;
- }
+    margin-left: 150px;
+    border-top: 15px solid transparent;
+    border-right: none;
+    border-left: 15px solid #ffffff;
+    border-bottom: 15px solid transparent;
+  } */
+
  .box2:hover {
-    border-color: #006778;
+    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-left-color: #006778;
  }
  .box3:hover {
-    border-color: #006778;
+    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-left-color: #006778;
  }
  .box4:hover {
-    border-color: #006778;
+    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-left-color: #006778;
  }
 .box1 i{
     padding-top: 8px;
@@ -442,11 +448,10 @@ ul li:hover {
     color: #727272;
 }
 .box2 {
-     
+    border: solid 1px #dcdcdc;
     padding-top: 18px;
     padding-left: 20px;
     border-left: 4px solid #dcdcdc;
-    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
     width: 174px;
     margin-top: 7px;
     list-style-type: none;
@@ -471,11 +476,11 @@ ul li:hover {
     color: #727272;
 }
 .box3 {
-     
+    border: solid 1px #dcdcdc;
     padding-top: 18px;
     padding-left: 20px;
     border-left: 4px solid #dcdcdc;
-    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
+    
     width: 174px;
     margin-top: 7px;
     list-style-type: none;
@@ -503,11 +508,10 @@ ul li:hover {
     color: #727272;
 }
 .box4 {
-     
+    border: solid 1px #dcdcdc;
     padding-top: 18px;
     padding-left: 20px;
     border-left: 4px solid #dcdcdc;
-    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.1);
     width: 174px;
     margin-top: 7px;
     list-style-type: none;
@@ -535,6 +539,10 @@ ul li:hover {
 .container-two{
     padding-left: 20px;
     max-width: 920px;
+}
+strong {
+    color: #505050;
+    font-weight: bold;
 }
 .content-1 p{
     font-family: HelveticaNeue;
@@ -591,11 +599,17 @@ font-family: HelveticaNeue;
   font-size: 18px;
 }
 .complete img{
-    height: 25px;
+    height: 20px;
     
 }
-.incomplete{
-    padding-top: 4px;
+.complete-icon{
+    padding-top: 2px;
+    margin-left: 7px;
+    font-size: 16px;
+}
+.incomplete-icon{
+    color: #d4d4d4;
+    padding-top: 2px;
     margin-left: 7px;
     font-size: 16px;
 }
@@ -606,8 +620,8 @@ font-family: HelveticaNeue;
   line-height: 1.5;
   color: #505050;
 }
-.box-one i{
-   padding-top: 19px; 
+.box-one h1{
+   /* padding-top: 19px;  */
    font-family: BerkeleyStd;
   font-size: 24px;
   line-height: 1.17;
@@ -618,7 +632,7 @@ font-family: HelveticaNeue;
     padding-left: 20px;
     padding-top: 39px;
 }
-.btn{
+.butn{
     display: flex;
     padding-top: 37px;
     padding-bottom: 20px;
@@ -668,16 +682,15 @@ font-family: HelveticaNeue;
   line-height: 1.5;
   color: #505050;
 }
-.from i{
-   padding-top: 19px; 
+.from h1{
+   /* padding-top: 19px; */
    font-family: BerkeleyStd;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #022737;
+   font-family: BerkeleyStd;
   line-height: 1.17;
   letter-spacing: normal;
-  color: #505050;
 }
 .form{
     padding-top: 30px;
@@ -687,6 +700,14 @@ font-family: HelveticaNeue;
     display: flex;
 }
 .corporation p{
+    padding-bottom: 10px;
+    border: solid 1px #d4d4d4;
+    width: 230px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 19px;
+}
+#corporation1 {
     padding-bottom: 10px;
     border: solid 1px #d4d4d4;
     width: 230px;
@@ -815,6 +836,7 @@ font-family: HelveticaNeue;
     border-bottom: 2px solid #e5e5e5;
 }
 .next-button{
+    padding: 7px 54px 7px 53px;
     margin-top: 50px;
     background-color: #006778;
     font-size: 18px;
@@ -847,12 +869,14 @@ footer{
     padding-left: 10px;
 }
 .line-vanguard{
+    opacity: 0.5;
 padding-top: 35px;
     font-family: HelveticaNeue;
   font-size: 12px;
   color: #ffffff;
   padding-bottom: 29px;
 }
+
 .footer-sec-2{
     display: flex;
     font-family: HelveticaNeue;
@@ -863,6 +887,8 @@ padding-top: 35px;
     list-style-type: none;
 }
 .about-us li{
+    opacity: 0.5;
+    list-style-type: none;
     padding-bottom: 23px;
     margin-left: 100px;
 }
@@ -891,7 +917,7 @@ padding-top: 35px;
 }
 .enter-email img{
     
-    padding-bottom: 40px;
+    padding-bottom: 1px;
 }
 .footer-second-section{
     max-width: 1200px;
@@ -914,5 +940,43 @@ padding-top: 35px;
 .footer2{
     background-color: #f5f5f5;
 }
+.email-subscription{
+    color: #606060;
+    padding-left: 15px;
+    padding-right: 50px;
+}
+select {
+width: 280px;
+    /* styling */
+    background-color: white;
+    border: solid 1px #d4d4d4;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
 
-
+  select.classic {
+    background-image:
+      linear-gradient(45deg, transparent 50%, #606060 50%),
+      linear-gradient(135deg, #606060 50%, transparent 50%),
+      linear-gradient(to right, #f5f5f5,#f5f5f5);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+  }

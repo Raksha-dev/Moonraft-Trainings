@@ -1,4 +1,14 @@
 @media only screen and (min-width: 320px) and (max-width: 425px){
+    .enter-email{
+        padding-bottom: 50px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .classic{
+        width: 230px;
+        margin-bottom: 40px;
+    }
     #myNav{
         display: block;
     }
@@ -6,7 +16,7 @@
         display: none;
     }
     .about-us{
-        padding-left: 20px;
+        margin-left: 11px;
         padding-right: 20px;
     }
     .header1-end{
@@ -22,9 +32,7 @@
     .list-content li{
         padding-left: 0;
     }
-    ul{
-        display: none;
-    }
+   
     .navigation{
         padding-left: 20px;
     }
@@ -111,7 +119,6 @@
         max-width: 1200px;
     }
     .container-3{
-        /* margin-right: 20px; */
         max-width: 1200px;
         padding-left: 0;
     }
@@ -123,16 +130,11 @@
     .complete{
         display: block;
     }
-    /* .footer-sec-2{
-        padding-left: 40px;
-    } */
+   
     .complete img {
-        /* margin-top: 20px; */
         height: 23px;
     }
-    /* .box-one p {
-        max-width: 239px;
-    } */
+    
     .corporation p{
         width: 185px;
     }
@@ -178,12 +180,11 @@
         padding-left: 20px;
     }
 }
-@media only screen and (max-width: 375px) {
-    /* .container-3{
-        margin-right: 20px;
-    } */
-}
+
 @media only screen and (max-width: 768px) {
+    .classic {
+        width: 230px;
+    }
     .icon-header span{
         display: block;
     }
@@ -193,9 +194,9 @@
     .second-name input{
         width: 220px;
     }
-    /* .container-4{
-        max-width: 530px;
-    } */
+    .nav-list {
+        display: none;
+    }
     .box-one{
         max-width: 530px;
     }
@@ -209,9 +210,7 @@
     .box3 li{
         display: block;
     }
-    ul{
-        display: none;
-    }
+   
     .navigation{
         padding-left: 20px;
     }
@@ -275,3 +274,6 @@
     }
 }
 
+@media only screen (max-width: 425px){
+
+}
