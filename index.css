@@ -669,12 +669,12 @@ font-family: HelveticaNeue;
   letter-spacing: 0.57px;
   color: #505050;
 }
-.from{
+.bank-form{
     padding-top: 19px;
     padding-left: 30px;
     border: solid 1px #d4d4d4;
 }
-.from p{
+.bank-form p{
     padding-top: 10px;
     max-width: 700px;
     font-family: HelveticaNeue;
@@ -682,7 +682,7 @@ font-family: HelveticaNeue;
   line-height: 1.5;
   color: #505050;
 }
-.from h1{
+.bank-form h1{
    /* padding-top: 19px; */
    font-family: BerkeleyStd;
     font-size: 24px;
